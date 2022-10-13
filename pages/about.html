@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Template</title>
+
+        <link media="screen" href="about.css" rel="stylesheet"/>
+        <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+        <script src="../nav-script.js"></script>
+    </head>
+    <body>
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width: 200px; font-size: 25px;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-hide-large" style="font-size: 25px;" onclick="w3_close()">Close &times;</button>
+            <a href="../main.html" class="w3-bar-item w3-button">Home</a>
+            <a href="work.html" class="w3-bar-item w3-button">Work</a>
+            <a href="about.html" class="w3-bar-item w3-button">About</a>
+            <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="#" class="w3-bar-item w3-button">Maybe Other Links...</a>
+        </div>
+
+        <div class="w3-main" style="margin-left:200px">
+            <div class="w3-teal">
+                <button class="w3-button w3-teal w3-hide-large" style="font-size: 50px;" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container">
+                    <h1 style="text-align: center;">About</h1>
+                </div>
+            </div>
+        </div>
+
+        <main class="w3-main" style="margin-left:200px">
+            <!--Background information of the person-->
+            <section>
+                <h1 style="text-align: center;">My Backstory</h1>
+
+                <div id="background-info">
+                    <p style="text-align: center;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim augue ligula, ac commodo lacus tincidunt elementum. 
+                        Fusce eget sagittis risus. Fusce aliquam tincidunt nisl vitae sagittis. 
+                        Maecenas aliquet in sem non ultricies. Integer nec sem non dui sodales aliquam. Cras rhoncus, tellus ac aliquam facilisis, 
+                        justo lectus dapibus quam, at tempus mi odio ac lorem. Etiam orci nibh, consequat ac justo vitae, cursus congue neque. 
+                        Praesent feugiat eget dui sed ornare. Nam ac dui convallis, faucibus libero id, porta sem. Nunc malesuada mattis accumsan. 
+                        Quisque hendrerit dolor vitae placerat cursus.
+                        <br><br> <!--<br> tag is breaks in the paragraphs-->
+                        Praesent rhoncus tortor et diam convallis, sed ullamcorper mi congue. Fusce convallis suscipit arcu ac scelerisque. Maecenas 
+                        ac nunc et nibh porta sagittis in non turpis. In consectetur ante ut est feugiat, a 
+                        eleifend ex elementum. Pellentesque nec fringilla metus. Duis scelerisque et justo at tristique. Praesent ac malesuada mauris. 
+                        Vestibulum et nunc a purus placerat vulputate. Nam dapibus ligula mi, ultricies malesuada massa luctus quis. 
+                        Proin blandit pretium justo vel volutpat. Pellentesque vel facilisis diam. Fusce maximus dui in lectus gravida maximus. 
+                        Morbi tristique mattis justo, sit amet tincidunt quam dictum eu.
+                    </p>
+                </div>
+                <div class="profile-card">
+                    <img id="profile-image-tall" src="../images/profile-image-tall.jpg">
+                    <h1>John Doe</h1>
+                    <hr>
+                    <p id="titles">Programmer, Coder, Whatever</p>
+                    <hr>
+                    <p>Education</p>
+                </div>
+
+            </section>
+        </main>
+    </body>
+</html>

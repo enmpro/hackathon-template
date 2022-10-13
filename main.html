@@ -1,0 +1,57 @@
+<!--Specifies that the document is an HTML document type-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Sets the character set to UTF standard and the viewport of the document that stays
+        consistent with any device-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Template</title>
+        <!--Link the CSS and JavaScript files-->
+        <link media="screen" href="main-style.css" rel="stylesheet"/>
+        <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
+        <script src="nav-script.js"></script>
+    </head>
+    <body>
+        <!--Navigation side bar-->
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width: 200px; font-size: 25px;" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-hide-large" style="font-size: 25px;" onclick="w3_close()">Close &times;</button>
+            <a href="main.html" class="w3-bar-item w3-button">Home</a>
+            <a href="pages/work.html" class="w3-bar-item w3-button">Work</a>
+            <a href="pages/about.html" class="w3-bar-item w3-button">About</a>
+            <a href="pages/contact.html" class="w3-bar-item w3-button">Contact</a>
+            <a href="#" class="w3-bar-item w3-button">Maybe Other Links...</a>
+        </div>
+        <!--The title of the page on the top-->
+        <div class="w3-main" style="margin-left:200px">
+            <div class="w3-teal">
+                <button class="w3-button w3-teal w3-hide-large" style="font-size: 50px;" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container">
+                    <h1 style="text-align: center;">My Page</h1>
+                </div>
+            </div>
+        </div>
+        <!--Hero image with a profile image and text-->
+        <main class="w3-main" style="margin-left:200px">
+            <section>
+                <div class="main-image">
+                    <div class="profile-align">
+                        <img id="profile-picture" src="images/man-smile.png" alt="Man smiling Profile image"/>
+                    </div>
+                    <div class="main-text">
+                        <p>This is me</p>
+                    </div>
+                </div>
+            </section>
+            <!--Some general information on the first page-->
+            <section>
+                <div class="information">
+                    <p>
+                        General information here
+                    </p>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+.social-media {
+
+    float: left;
+
+    text-align: left;
+    font-size: 80px;
+
+    margin-left: 2em;
+    margin-top: 0.5em;
+    
+
+}
+
+.email {
+    float: left;
+    font-size: 80px;
+
+    text-align: center;
+    margin-left: 2em;
+    margin-top: 0.5em;
+
+}
+
+.email a {
+    font-size: 20px;
+}
+
+.other-contact {
+
+    float: right;
+
+    text-align: right;
+    font-size: 80px;
+    margin-right: 2em;
+    margin-top: 0.5em;
+}
+
+a {
+    color: black;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    
+    color: rgb(88, 158, 88);
+
+}

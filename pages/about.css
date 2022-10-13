@@ -1,0 +1,44 @@
+#profile-image-tall {
+    height: 300px;
+    width: 300px;
+    
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#titles {
+    color: grey;
+    font-size: 18px;
+}
+
+#background-info {
+    margin-left: 15em;
+    margin-right: 15em;
+
+    padding-bottom: 3em;
+
+    transition: 0.5s ease;
+}
+
+.profile-card {
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7em;
+    padding-bottom: 1em;
+    box-shadow: 0 0 10px black;
+    max-width: 300px;
+}
+
+
+@media screen and (max-width: 1350px) {
+    
+    #background-info {
+        margin-left: 4em;
+        margin-right: 4em;
+    
+        padding-bottom: 3em;
+    }
+
+}
