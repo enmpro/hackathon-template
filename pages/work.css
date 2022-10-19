@@ -1,0 +1,21 @@
+.work-row-one {
+    display: flex;
+    
+
+}
+
+.work-card-one {
+    text-align: center;
+    max-width: 450px;
+    
+    border-radius: 4em 4em 0 0;
+    box-shadow: 0 0 10px black;
+}
+
+#work-image-one {
+    width: 450px;
+    height: 250px;
+    border-radius: 4em 4em 0 0;
+    object-fit: cover;
+    overflow: hidden;
+}
