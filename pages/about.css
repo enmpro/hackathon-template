@@ -31,6 +31,10 @@
     max-width: 300px;
 }
 
+.social-media {
+    font-size: 20px;
+}
+
 
 @media screen and (max-width: 1350px) {
     

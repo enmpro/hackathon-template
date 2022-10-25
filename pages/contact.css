@@ -1,52 +1,23 @@
-.contact-header {
+
+input[type=text], input[type=email], select, textarea {
+    width: 100%;
+}
+
+form {
+    font-size: 25px;
+}
+
+.form-title {
     text-align: center;
-    margin-left: 2em;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(0, 128, 0, 0.411);
 }
 
-.social-media {
 
-    float: left;
-
-    text-align: left;
-    font-size: 80px;
-
-    margin-left: 2em;
-    margin-top: 0.5em;
-    
-
-}
-
-.email {
-    float: left;
-    font-size: 80px;
-
-    text-align: center;
-    margin-left: 2em;
-    margin-top: 0.5em;
-
-}
-
-.email a {
-    font-size: 20px;
-}
-
-.other-contact {
-
-    float: right;
-
-    text-align: right;
-    font-size: 80px;
-    margin-right: 2em;
-    margin-top: 0.5em;
-}
-
-a {
-    color: black;
-    transition: 0.5s ease;
-}
-
-a:hover {
-    
-    color: rgb(88, 158, 88);
-
+.form-container {
+    margin: 4em 40% 4em 4em;
+    padding: 4em;
+    border-radius: 4px 4px 4px 4px;
+    background-color: lightgray;
 }

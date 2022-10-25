@@ -7,7 +7,6 @@
         <title>Template</title>
 
         <link media="screen" href="contact.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
         <script src="../nav-script.js"></script>
     </head>
@@ -34,31 +33,29 @@
 
         <main class="w3-main" style="margin-left:200px">
             <section>
-                <div class="contact-header">
-                    <h1>Social Media</h1>
-                    <h1>E-Mail</h1>
-                    <h1>Other Contact</h1>
-                </div>
-                <div class="social-media">
-                    <a href="#"><i class="fa fa-twitter"></i></a>  
-                    <br>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>  
-                    <br>
-                    <a href="#"><i class="fa fa-facebook"></i></a> 
-                    <br>
-                    <a href="#"><i class="fa fa-youtube"></i></a> 
-                </div>
-            </section>
-            <section>
-                <div class="email">
-                    <a href="#">email@email.com</i></a> 
-                    
-                </div>
-            </section>
-            <section>
-                <div class="other-contact">
-                    <a href="#"><i class="fa fa-github"></i></a> 
-                    
+                <div class="form-container">
+                    <form action="" method="post">
+                            <h1 class="form-title">Get in contact with me!</h1>
+                            <label for="fname">First name</label>
+                            <input type="text" id="fname" name="fname" placeholder="First name..." required/>
+                            <label for="lname">Last name</label>
+                            <input type="text" id="lname" name="lname" placeholder="Last name..." required/>
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                                <option value="usa">United States of America</option>
+                                <option value="other-countries">Other countries</option>
+                            </select>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required/>
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write something..." required></textarea>
+
+                            <input type="submit" value="Submit"/>
+                        
+                    </form>
                 </div>
             </section>
         </main>
