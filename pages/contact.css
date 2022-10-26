@@ -10,8 +10,9 @@ form {
 .form-title {
     text-align: center;
     width: fit-content;
+    border-radius: 20px;
     margin: auto;
-    background-color: rgba(0, 128, 0, 0.411);
+    background-color:rgba(84, 84, 233, 0.39);
 }
 
 
@@ -20,4 +21,27 @@ form {
     padding: 4em;
     border-radius: 4px 4px 4px 4px;
     background-color: lightgray;
+}
+
+.images {
+    float: right;
+    margin-right: 9em;
+}
+
+
+.button {
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(47, 47, 194, 0.281);
+}
+
+.button:active {
+    background-color: rgba(84, 84, 233, 0.733);
 }

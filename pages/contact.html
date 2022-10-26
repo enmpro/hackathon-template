@@ -9,6 +9,7 @@
         <link media="screen" href="contact.css" rel="stylesheet"/>
         <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"/>
         <script src="../nav-script.js"></script>
+        <script src="contact.js"></script>
     </head>
     <body>
         <nav>
@@ -33,6 +34,11 @@
 
         <main class="w3-main" style="margin-left:200px">
             <section>
+                <div class="images">
+                    <img id="profile-pic" alt="This is me." src="../images/man-smile.png"/>
+                    <img id="c++" alt="C++" src="../images/c-plus-plus.png"/>
+                </div>
+
                 <div class="form-container">
                     <form action="" method="post">
                             <h1 class="form-title">Get in contact with me!</h1>
@@ -53,7 +59,7 @@
                             <label for="subject">Subject</label>
                             <textarea id="subject" name="subject" placeholder="Write something..." required></textarea>
 
-                            <input type="submit" value="Submit"/>
+                            <input class="button" type="submit" value="Submit"/>
                         
                     </form>
                 </div>
