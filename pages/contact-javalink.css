@@ -6,9 +6,8 @@
     height: 250px;
 
     border-radius: 50%;
-    border: groove;
-    border-color: rgb(87, 87, 187);
-    border-width: 1em;
+    border: 1px solid rgb(170, 164, 164);
+    padding: 5px;
 
     object-fit: cover;
     overflow: hidden;
@@ -30,10 +29,12 @@
     animation-name: slideUpOther;
     animation-duration: 1s;
 
-    width: 250px;
-    height: 250px;
+    max-width: 250px;
+    max-height: 250px;
+    width: 50%;
+    height: 50%;
 
-    object-fit: cover;
+    object-fit: contain;
     overflow: hidden;
     visibility: visible;
 }

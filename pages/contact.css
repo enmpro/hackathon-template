@@ -12,15 +12,17 @@ form {
     width: fit-content;
     border-radius: 20px;
     margin: auto;
-    background-color:rgba(84, 84, 233, 0.39);
+    background-color:rgba(84, 84, 233, 0.171);
 }
 
 
 .form-container {
-    margin: 4em 40% 4em 4em;
+    margin: 4em 55% 4em 4em;
     padding: 4em;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 4em;
     background-color: lightgray;
+    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.562);
 }
 
 .images {
