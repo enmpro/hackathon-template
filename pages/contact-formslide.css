@@ -32,10 +32,11 @@
 
 
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 700px) {
 
-  .form-container {
-    margin: 4em 4em 4em 4em;
+  .form-title {
+    width: 250px;
+    font-size: 20px;
   }
 
 
