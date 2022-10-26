@@ -1,0 +1,43 @@
+/* This is the class that is added to the related images when the function is called */
+.slideUp {
+    animation-name: slideUp;
+    animation-duration: 1s;
+    
+
+    border-radius: 0.5em;
+    background-color: lightgray;
+
+    margin: 3em;
+    padding: 2em;
+   
+    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.562);
+
+    padding: 5px;
+
+    visibility: visible;
+}
+
+/* the animation */
+@keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+}
+
+
+
+@media screen and (max-width: 1450px) {
+
+  .form-container {
+    margin: 4em 4em 4em 4em;
+  }
+
+
+
+}

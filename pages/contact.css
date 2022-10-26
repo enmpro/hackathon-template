@@ -1,15 +1,29 @@
 
 input[type=text], input[type=email], select, textarea {
     width: 100%;
+    
 }
 
 form {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+section {
+    margin-top: 1em;
+}
+
+textarea {
+    resize: vertical;
 }
 
 .form-title {
     text-align: center;
-    width: fit-content;
+    width: 500px;
     border-radius: 20px;
     margin: auto;
     background-color:rgba(84, 84, 233, 0.171);
@@ -17,17 +31,8 @@ form {
 
 
 .form-container {
-    margin: 4em 55% 4em 4em;
-    padding: 4em;
-    border-radius: 4em;
-    background-color: lightgray;
-    box-shadow: 0 0 10px black;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.562);
-}
-
-.images {
-    float: right;
-    margin-right: 9em;
+    display: block;
+    visibility: hidden;
 }
 
 
