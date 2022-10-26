@@ -24,8 +24,7 @@ form {
 }
 
 .images {
-    display: flex;
-    justify-content: center;
+    float: right;
     margin-right: 9em;
 }
 

@@ -1,5 +1,8 @@
-window.onpageshow = function() {scrollFade()};
-window.onpageshow = function() {scrollFadeOther()};
+window.onpageshow = function() {
+    scrollFade()
+    scrollFadeOther()
+};
+
 
 function scrollFade() {
     
